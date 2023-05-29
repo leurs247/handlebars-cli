@@ -1,7 +1,7 @@
 {
-	"name": "handlebars-cli",
+	"name": "@leurs247/handlebars-cli",
 	"version": "0.1.0",
-	"main": "index.js",
+	"description": "A CLI-tool to parse handlebars expressions in files",
 	"bin": {
 		"hb-cli": "./bin/index.js"
 	},
@@ -11,10 +11,22 @@
 		"templating",
 		"cli"
 	],
-	"author": "Sam Leurs <samleurs@gmail.com>",
-	"license": "UNLICENSED",
+	"author": {
+		"name": "leurs247",
+		"email": "samleurs@gmail.com",
+		"url": "https://samleurs.be"
+	},
+	"repository": "git://github.com/leurs247/handlebars-cli.git",
+	"license": "MIT",
 	"dependencies": {
 		"handlebars": "^4.7.7",
 		"yargs": "^17.7.2"
+	},
+	"files": [
+		"bin/index.js"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
 	}
 }
