@@ -1,0 +1,20 @@
+{
+	"name": "handlebars-cli",
+	"version": "0.1.0",
+	"main": "index.js",
+	"bin": {
+		"hb-cli": "./bin/index.js"
+	},
+	"type": "module",
+	"keywords": [
+		"handlerbars",
+		"templating",
+		"cli"
+	],
+	"author": "Sam Leurs <samleurs@gmail.com>",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"handlebars": "^4.7.7",
+		"yargs": "^17.7.2"
+	}
+}
